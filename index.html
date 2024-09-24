@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App (Rahul)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+    <div class="container">
+        <div class="dark-mode">
+            <span class="dark">&#9790;</span>
+            <span class="light">&#9728;</span>
+        </div>
+        <form>
+            <div class="result-box">
+                <input type="text" class="input" name="expression" readonly>
+                <input type="text" class="result" name="result" readonly>
+            </div>
+            <div class="buttons">
+                <div>
+                    <input type="button" value="AC" class="fnkeys clear">
+                    <input type="button" value="←" class="fnkeys back">
+                    <input type="button" value="/" class="operator divide">
+                    <input type="button" value="*" class="operator multiply">
+                </div>
+                <div>
+                    <input type="button" value="7" class="seven">
+                    <input type="button" value="8" class="eight">
+                    <input type="button" value="9" class="nine">
+                    <input type="button" value="-" class="operator minus">
+                </div>
+                <div>
+                    <input type="button" value="4" class="four">
+                    <input type="button" value="5" class="five">
+                    <input type="button" value="6" class="six">
+                    <input type="button" value="+" class="operator plus">
+                </div>
+                <div>
+                    <input type="button" value="1" class="one">
+                    <input type="button" value="2" class="two">
+                    <input type="button" value="3" class="three">
+                    <input type="button" value="." class="operator dot">
+                </div>
+                <div>
+                    <input type="button" value="00" class="double-zero">
+                    <input type="button" value="0" class="zero">
+                    <input type="button" value="=" class="operator equal">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
